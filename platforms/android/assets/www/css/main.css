@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ar_cenaregular';
+    src: url('fonts/arcena-webfont.woff2') format('woff2'),
+         url('fonts/arcena-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{height:100%;background:#eee;font-family: 'ar_cenaregular'; position: relative; overflow: hidden}
+#estante1{left:50%;position:absolute}
+#imagenestante1{height:100%;position:absolute}
+#botonpadecimiento1{width:19%;height:9%;position:absolute;z-index:2;left:10%;top:45%}
+#botonpadecimiento2{width:19%;height:9%;position:absolute;z-index:2;left:34%;top:45%}
+#bp1fucidion{width:18%;height:9%;position:absolute;z-index:2;left:4%;top:25%}
+#bp2fucidion{width:17%;height:9%;position:absolute;z-index:2;left:23%;top:25%}
+#bp3fucidion{width:17%;height:9%;position:absolute;z-index:2;left:41%;top:25%}
+#bp4fucidion{width:18%;height:9%;position:absolute;z-index:2;left:4%;top:45%}
+#bp5fucidion{width:17%;height:9%;position:absolute;z-index:2;left:23%;top:45%}
+#bp6fucidion{width:17%;height:9%;position:absolute;z-index:2;left:41%;top:45%}
+#bp7fucidion{width:18%;height:9%;position:absolute;z-index:2;left:4%;top:63%}
+#bp8fucidion{width:17%;height:9%;position:absolute;z-index:2;left:23%;top:63%}
+#bp9fucidion{width:17%;height:9%;position:absolute;z-index:2;left:41%;top:63%}
+.padecimiento{background:#fdfdfd}
+.footerpadecimiento{height:4%;background:#e11d39;position:absolute;bottom:0;width:100%}
+.footerpadecimiento2{width:30%;height:100%;background:#f79621;float:right}
+#contenidopadecimiento{}
+#wrapcarusel{width: 900%; position: relative;    height: 100%;}
+.diapositiva{width:100%}
+.item{height: 100%; float: left; width: 100%}
+.itemcarusel{float: left; position: relative;}
+.pers{width: 16% !important;right: 0;position: absolute !important;top: 20%;}
+.itemcarusel img{width: 70%; position: relative; margin:20px auto; display: block;}
+.item img{width:100%;position:relative}
+.p1_4{position:absolute;left:9%;top:24%;width:19px;height:19px;display:block;z-index:3}
+.p2_4{position:absolute;left:9%;top:35%;width:19px;height:19px;display:block;z-index:3}
+.p3_4{position:absolute;left:9%;top:46%;width:19px;height:19px;display:block;z-index:3}
+.p4_4{position:absolute;left:9%;top:57%;width:19px;height:19px;display:block;z-index:3}
+.p4_5{position:absolute;left:9%;top:68%;width:19px;height:19px;display:block;z-index:3}
+img.botonsiguiente{position:absolute;    width: 21%;right: 0;bottom: -21%;}
+#correcta{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9;display:none}
+#incorrecta{position:fixed;top:0;left:0;z-index:9;display:none}
+#correcta img{width:80%;margin:0 auto;display:block}
+#incorrecta img{width:59%;margin:0 auto;display:block}
+img#leoenlapiel{position:absolute;margin-top:-40px;margin-left:10px}
+img#daivonex {position: absolute;margin-top: -51px;right: 10px;}
+img#daivobet{position:absolute;margin-top:-84px;right:10px}
+img#fucidin{position:absolute;margin-top:-40px;right:10px}
+a#home{position:absolute;margin-top:-70px;left:50%;margin-left:-41px}
+.medicamento{position:relative;z-index:10}
+.medicamento img{width:37%;margin:21% 6%}
+.pregunta{color: #fff100}
+.respuesta{color: #fff; margin-top: 10px; line-height: normal}
+.backpreguntas{background: #a1181e;width: 70%;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;padding: 2%; margin:20px; position: relative; }
+.backpreguntas2{background: transparent;width: 70%;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;padding: 2%;}
+.backpreguntas input{margin-right: 5px}
+.backpreguntas span{}
+.personaje{width: 8% !important;position: absolute !important;right: 15%;top: 130px;z-index: 6;}
+.tubo{width: auto !important;position: absolute !important;top: 30px;right: 10px;height: 50%;z-index: 7}
+.tubo5{width: auto !important;position: absolute !important;top: 30px;right: 10px;height: 50%;z-index: 3;display: none}
+.tubo10{width: auto !important;position: absolute !important;top: 30px;right: 10px;height: 50%;z-index: 4;display: none}
+.tubolleno{width: auto !important;position: absolute !important;top: 30px;right: 10px;height: 50%;z-index: 5;display: none}
+.titulopadecimiento{margin: 15px;}
+#logoleo{position: absolute;right: 0;bottom: 36px;right: 10px}
+#codigoacceso{width: 100%;height: 100%;background: url(../img/pixel.png);position: fixed;z-index: 999999;}
+#codigo{width: 300px;height: 50px;font-size: 37px;position: absolute;left: 50%;margin-left: -150px;top: 50%;margin-top: -25px;text-align: center;text-transform: uppercase;}
+#boton_entrar{position: absolute;top: 58%;left: 50%;margin-left: -65px;}
+#error{position: absolute;color: red;font-size: 40px;top: 36%;width: 100%;text-align: center; display: none}

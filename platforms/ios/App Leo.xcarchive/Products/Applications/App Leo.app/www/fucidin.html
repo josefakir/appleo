@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		anchooriginal = 1024;
+		altooriginal = 768;
+		nuevoalto = $(window).height();
+		$('#estante1').animate({
+			'height' : nuevoalto+'px'
+		},function(){
+			$('#imagenestante1').animate({
+				'height' : nuevoalto+'px'
+			});
+		},function(){
+			nuevoancho = Math.ceil($('#imagenestante1').width());
+			$('#estante1').animate({
+				'width' : nuevoancho+'px'
+			},function(){
+				$('#estante1').animate({
+					'marginLeft' : ((nuevoancho*-1)/2)+'px'
+				})
+			})
+		});
+	})
+	</script>
+</head>
+<body class="estante">
+	<div id="estante1">
+		<img src="img/estante2.jpg" alt="" id="imagenestante1">
+		<a href="paroniquia.html" id="bp1fucidion"></a>
+		<a href="impetigo.html" id="bp2fucidion"></a>
+		<a href="foliculitis.html" id="bp3fucidion"></a>
+		<a href="furunculo.html" id="bp4fucidion"></a>
+		<a href="heridas-infectadas.html" id="bp5fucidion"></a>
+		<a href="eritasma.html" id="bp6fucidion"></a>
+		<a href="abceso.html" id="bp7fucidion"></a>
+		<a href="quemaduras.html" id="bp8fucidion"></a>
+		<a href="dermatitis.html" id="bp9fucidion"></a>
+	</div>
+</body>
+</html>

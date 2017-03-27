@@ -1,0 +1,1239 @@
+{  
+   "Fucidin":[  
+      {  
+         "numero":"1",
+         "pregunta":"¿En qué año llego Fucidin® a México?",
+         "opciones":[  
+            {  
+               "opcion":"1986"
+            },
+            {  
+               "opcion":"1967"
+            },
+            {  
+               "opcion":"1968"
+            },
+            {  
+               "opcion":"1970"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"2",
+         "pregunta":"¿En qué forma farmacéutica fue lanzadoFucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Crema"
+            },
+            {  
+               "opcion":"Gel"
+            },
+            {  
+               "opcion":"Ungüento"
+            },
+            {  
+               "opcion":"Crema y ungüento"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"3",
+         "pregunta":"Cuando hablamos de alcanzar los niveles terapéuticos para lograreficacia antibacteriana, se puede decir que Fucidin® tópico vstratamientos orales es:",
+         "opciones":[  
+            {  
+               "opcion":"Más lento que el tratamiento oral"
+            },
+            {  
+               "opcion":"Velocidad similar"
+            },
+            {  
+               "opcion":"Más rápido que la terapia oral"
+            },
+            {  
+               "opcion":"Mayor velocidad, excepto en los niños"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"4",
+         "pregunta":"¿En qué año fabricó LEO Pharma® su tuboNo. 600 millones de Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"2009"
+            },
+            {  
+               "opcion":"2010"
+            },
+            {  
+               "opcion":"2012"
+            },
+            {  
+               "opcion":"2013"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"5",
+         "pregunta":"¿Cuántas toneladas de ácido fusídico y fusidatode sodio ha fabricado LEO Pharma® desde sulanzamiento?",
+         "opciones":[  
+            {  
+               "opcion":"25 millones"
+            },
+            {  
+               "opcion":"250 millones"
+            },
+            {  
+               "opcion":"2.5 millones"
+            },
+            {  
+               "opcion":"0.25 millones"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"6",
+         "pregunta":"¿Cuál es el nombre del hongo del cual sederiva Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Fucidiumarbitum"
+            },
+            {  
+               "opcion":"Fucidiumcoccineum"
+            },
+            {  
+               "opcion":"Fucidiummanuteum"
+            },
+            {  
+               "opcion":"Fucidiumbarilleum"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"7",
+         "pregunta":"¿En qué clase de antibiótico se clasificaFucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Aminoglucósidos"
+            },
+            {  
+               "opcion":"Fusidanos (antibacterianos esteroides)"
+            },
+            {  
+               "opcion":"Cefalosporinas"
+            },
+            {  
+               "opcion":"Quinolonas"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"8",
+         "pregunta":"¿Cuáles de estos patógenos pueden causar impétigo,una condición tratada con Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Bacteria estreptocócica"
+            },
+            {  
+               "opcion":"Bacteria estafilocócica"
+            },
+            {  
+               "opcion":"Virus Herpes simple"
+            },
+            {  
+               "opcion":"Bacterias estreptocócicas y estafilocócicas"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"9",
+         "pregunta":"¿Cómo funciona el grado de penetración de Fucidin® en la piel normal?",
+         "opciones":[  
+            {  
+               "opcion":"Equivalente a corticosteroides"
+            },
+            {  
+               "opcion":"8 veces mejor que la Tetraciclina"
+            },
+            {  
+               "opcion":"A y B"
+            },
+            {  
+               "opcion":"Ninguna de las anteriores"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"10",
+         "pregunta":"Fucidin® trabaja inhibiendo:",
+         "opciones":[  
+            {  
+               "opcion":"La reproducción celular bacteriana"
+            },
+            {  
+               "opcion":"La síntesis de proteínas bacterianas"
+            },
+            {  
+               "opcion":"La síntesis de aminoácidos bacteriana"
+            },
+            {  
+               "opcion":"La síntesis de la pared celular"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"11",
+         "pregunta":"Después de la aplicación tópica; ¿en cuántos minutos llega Fucidin® a la capa más profunda de la piel?",
+         "opciones":[  
+            {  
+               "opcion":"30"
+            },
+            {  
+               "opcion":"10"
+            },
+            {  
+               "opcion":"90"
+            },
+            {  
+               "opcion":"60"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"12",
+         "pregunta":"¿Cuántas veces es  mayor la tasa de penetración de Fucidin® en la piel comparado con la mupirocina?",
+         "opciones":[  
+            {  
+               "opcion":"5 veces"
+            },
+            {  
+               "opcion":"2 veces"
+            },
+            {  
+               "opcion":"10 veces"
+            },
+            {  
+               "opcion":"7 veces"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"13",
+         "pregunta":"¿En qué año fue lanzado Fucidin® Crema?",
+         "opciones":[  
+            {  
+               "opcion":"1980"
+            },
+            {  
+               "opcion":"1978"
+            },
+            {  
+               "opcion":"1982"
+            },
+            {  
+               "opcion":"1984"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"14",
+         "pregunta":"¿Cuáles son los principales factores que contribuyen a la eficacia de los preparados tópicos de Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Alto grado de penetración en la piel"
+            },
+            {  
+               "opcion":"Alta actividad contra los patógenos primarios de la piel"
+            },
+            {  
+               "opcion":"No hay resistencia cruzada"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"15",
+         "pregunta":"¿Cuál es la tasa de curación media alcanzada por Fucidin® en los estudios de eficacia?",
+         "opciones":[  
+            {  
+               "opcion":"60 - 70%"
+            },
+            {  
+               "opcion":"70 - 80 %"
+            },
+            {  
+               "opcion":"85 %"
+            },
+            {  
+               "opcion":"90%"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"16",
+         "pregunta":"¿En qué porcentaje muestra resistencia cruzada Fucidin® con otros antibióticos?",
+         "opciones":[  
+            {  
+               "opcion":"Hasta un 15%"
+            },
+            {  
+               "opcion":"Menos del 5%"
+            },
+            {  
+               "opcion":"Menos del 1%"
+            },
+            {  
+               "opcion":"Ninguno de los anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"17",
+         "pregunta":"¿Cuál de las siguientes infecciones primarias de la piel no se puede tratar con Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Impétigo"
+            },
+            {  
+               "opcion":"Herpes Simple"
+            },
+            {  
+               "opcion":"Paroniquia"
+            },
+            {  
+               "opcion":"Foliculitis"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"18",
+         "pregunta":"¿Cuál de los siguientes 4 antibióticos muestra el menor potencial sensibilizante alergénico sobre la piel?",
+         "opciones":[  
+            {  
+               "opcion":"Ácido fusídico"
+            },
+            {  
+               "opcion":"Neomicina"
+            },
+            {  
+               "opcion":"Clioquinol"
+            },
+            {  
+               "opcion":"Gentamicina"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"19",
+         "pregunta":"¿Cuál de las siguientes son las características de seguridad más importantes de Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Bajo potencial alergénico"
+            },
+            {  
+               "opcion":"Buena tolerabilidad en pacientes"
+            },
+            {  
+               "opcion":"A y B"
+            },
+            {  
+               "opcion":"Ninguna de las anteriores"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"20",
+         "pregunta":"¿Cómo es Fucidin® en comparación con la Mupirocina tópica?",
+         "opciones":[  
+            {  
+               "opcion":"Ambos son igual de eficaces clínicamente"
+            },
+            {  
+               "opcion":"Fucidin® penetra más profundamente en la piel"
+            },
+            {  
+               "opcion":"Fucidin® no se ve afectado por la presencia de pus"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"21",
+         "pregunta":"Fucidin® puede penetrar:",
+         "opciones":[  
+            {  
+               "opcion":"La piel dañada, pero no la piel sana"
+            },
+            {  
+               "opcion":"La piel sana, pero la piel no dañada"
+            },
+            {  
+               "opcion":"Ni la piel sana ni la dañada"
+            },
+            {  
+               "opcion":"Tanto la piel dañada como la piel sana"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"22",
+         "pregunta":"¿Cuál de estos factores juega un papel determinante al permitir que Fucidin® penetre a través de las capas de la piel?",
+         "opciones":[  
+            {  
+               "opcion":"Baja alergenicidad"
+            },
+            {  
+               "opcion":"Alta actividad contra el S. aureus"
+            },
+            {  
+               "opcion":"Estructura similar a la de un esteroide"
+            },
+            {  
+               "opcion":"Bajo potencial sensibilizante"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"23",
+         "pregunta":"La estructura química única de Fucidin®:",
+         "opciones":[  
+            {  
+               "opcion":"Hace que Fucidin® pueda penetrar hasta las capas más profundas de la piel"
+            },
+            {  
+               "opcion":"Hace que Fucidin® no se descomponga por beta-lactamasas"
+            },
+            {  
+               "opcion":"Hace que Fucidin® sea menos susceptible a la resistencia cruzada"
+            },
+            {  
+               "opcion":"Todas los anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"24",
+         "pregunta":"¿Cuál de los siguientes agentes penetra la piel con más eficacia que Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Eritromicina"
+            },
+            {  
+               "opcion":"Neomicina"
+            },
+            {  
+               "opcion":"Mupirocina"
+            },
+            {  
+               "opcion":"Ninguno de los anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"25",
+         "pregunta":"Para tratar una lesión costrosa en la piel, ¿cuál presentación de Fucidin® sería la más adecuada? ",
+         "opciones":[  
+            {  
+               "opcion":"Fucidin® crema"
+            },
+            {  
+               "opcion":"Fucidin® ungüento"
+            },
+            {  
+               "opcion":"Fucidin® suspensión"
+            },
+            {  
+               "opcion":"Ninguna de las anteriores"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"26",
+         "pregunta":"Para Fucidin® crema todo lo siguiente es correcto, EXCEPTO:",
+         "opciones":[  
+            {  
+               "opcion":"Es pegajoso y tiene una naturaleza oclusiva"
+            },
+            {  
+               "opcion":"Cosméticamente aceptable para su uso en la cara y las manos"
+            },
+            {  
+               "opcion":"Conveniente para el uso en la ingle o las axilas"
+            },
+            {  
+               "opcion":"Se puede utilizar con o sin un apósito protector"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"27",
+         "pregunta":"El ácido fusídico es un antibiótico obtenido mediante la fermentación del hongo Fusidiumcoccineum, aislado por LEO Pharma® en 1960. ¿El hongo fue descubierto originalmente en las heces de qué animal?",
+         "opciones":[  
+            {  
+               "opcion":"Elefante"
+            },
+            {  
+               "opcion":"Mono"
+            },
+            {  
+               "opcion":"Ratón"
+            },
+            {  
+               "opcion":"Hamster"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"28",
+         "pregunta":"¿Cuál de los siguientes no es una forma farmacéutica autorizada en México de Fucidin®?:",
+         "opciones":[  
+            {  
+               "opcion":"Crema"
+            },
+            {  
+               "opcion":"Loción"
+            },
+            {  
+               "opcion":"Ungüento"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"29",
+         "pregunta":"Fucidin® versus la Neomicina tópica:",
+         "opciones":[  
+            {  
+               "opcion":"Tiene una eficacia superior"
+            },
+            {  
+               "opcion":"Demuestra mejor penetración en la piel"
+            },
+            {  
+               "opcion":"Mínimo riesgo alergénico comprobado"
+            },
+            {  
+               "opcion":"Todas los anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"30",
+         "pregunta":"Debido a que Fucidin® penetra la piel con tanta eficacia, ¿a qué lugar puede llegar más rápido que muchos de sus competidores?",
+         "opciones":[  
+            {  
+               "opcion":"Al torrente sanguíneo"
+            },
+            {  
+               "opcion":"A las capas más profundas de la piel"
+            },
+            {  
+               "opcion":"A las células musculares"
+            },
+            {  
+               "opcion":"A las células grasas"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"31",
+         "pregunta":"Debido a que Fucidin® no es similar en estructura a otros antibióticos de uso clínico, no induce resistencia bacteriana similar, ¿qué ventaja confiere esto?",
+         "opciones":[  
+            {  
+               "opcion":"Mayor penetración en la piel"
+            },
+            {  
+               "opcion":"Espectro más amplio de actividad"
+            },
+            {  
+               "opcion":"Mayor solubilidad en grasas"
+            },
+            {  
+               "opcion":"No hay resistencia cruzada"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"32",
+         "pregunta":"¿Qué tipo de actividad antibiótica tiene Fucidin®?",
+         "opciones":[  
+            {  
+               "opcion":"Espectro reducido, gram-positivo"
+            },
+            {  
+               "opcion":"Amplio espectro, gram-positivo"
+            },
+            {  
+               "opcion":"Espectro reducido, gram-negativo"
+            },
+            {  
+               "opcion":"Amplio espectro, gram-negativo"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"33",
+         "pregunta":"Fucidin® ungüento tiene las siguientes propiedades:",
+         "opciones":[  
+            {  
+               "opcion":"Alta penetración"
+            },
+            {  
+               "opcion":"Altamente alergénico"
+            },
+            {  
+               "opcion":"Propiedad oclusiva"
+            },
+            {  
+               "opcion":"A y C"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"34",
+         "pregunta":"La principal ventaja del ácido fusídico sobre la Mupirocina es:",
+         "opciones":[  
+            {  
+               "opcion":"Alcanza infecciones bacterianas profundas de la piel con altos registros de éxito del tratamiento"
+            },
+            {  
+               "opcion":"Puede también ser utilizado para el tratamiento de la caspa del cuero cabelludo"
+            },
+            {  
+               "opcion":"Duración más corta del tratamiento"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"35",
+         "pregunta":"En infecciones bacterianas de la piel, ¿con qué frecuencia debe aplicarse Fucidin® crema/ungüento?",
+         "opciones":[  
+            {  
+               "opcion":"Una vez al día durante 2 semanas"
+            },
+            {  
+               "opcion":"Dos veces al día por 1 semana"
+            },
+            {  
+               "opcion":"3-4 veces por dia según sea necesario"
+            },
+            {  
+               "opcion":"Ninguna de los anteriores"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"36",
+         "pregunta":"Fucidin® crema es más adecuado para ser utilizado en:",
+         "opciones":[  
+            {  
+               "opcion":"Heridas con costra seca"
+            },
+            {  
+               "opcion":"Pliegues de la piel"
+            },
+            {  
+               "opcion":"Lesiones húmedas"
+            },
+            {  
+               "opcion":"B y C"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"37",
+         "pregunta":"¿Cuál de las siguientes patologías es la que se presenta con mayor incidencia?",
+         "opciones":[  
+            {  
+               "opcion":"Tiña de cuerpo"
+            },
+            {  
+               "opcion":"Candidiasis"
+            },
+            {  
+               "opcion":"Dermatitis"
+            },
+            {  
+               "opcion":"Infección por hongos"
+            }
+         ],
+         "respuesta":"c"
+      },
+      {  
+         "numero":"38",
+         "pregunta":"¿En qué parte del cuerpo es más común que se presente infección por hongos?",
+         "opciones":[  
+            {  
+               "opcion":"Piernas y brazos"
+            },
+            {  
+               "opcion":"Tronco y espalda"
+            },
+            {  
+               "opcion":"Cuello y cabeza"
+            },
+            {  
+               "opcion":"Manos y pies"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"39",
+         "pregunta":"¿Cómo ejerce Fucidin® su acción antibacteriana?",
+         "opciones":[  
+            {  
+               "opcion":"Inhibiendo la síntesis de proteínas bacterianas"
+            },
+            {  
+               "opcion":"Causando directamente la necrosis de las células de proteínas bacterianas"
+            },
+            {  
+               "opcion":"Fomentando el sistema inmune para destruir las células de proteínas bacterianas"
+            },
+            {  
+               "opcion":"Mediante la inhibición de la síntesis de proteínas bacterianas y fomentando el sistema inmune para destruir las células de proteínas bacterianas"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"40",
+         "pregunta":"¿Cuál de los siguientes antibióticos muestra el menor potencial sensibilizante alergénico sobre la piel?",
+         "opciones":[  
+            {  
+               "opcion":"Ácido fusídico"
+            },
+            {  
+               "opcion":"Neomicina"
+            },
+            {  
+               "opcion":"Clioquinol"
+            },
+            {  
+               "opcion":"Ácido fusídico y neomicina"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"41",
+         "pregunta":"¿Qué porcentaje de los pacientes con dermatitis atópica tiene sobrecolonización de la piel por Staphylococcus aureus?",
+         "opciones":[  
+            {  
+               "opcion":"> 90%"
+            },
+            {  
+               "opcion":"> 80%"
+            },
+            {  
+               "opcion":"> 70%"
+            },
+            {  
+               "opcion":"> 60%"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"42",
+         "pregunta":"¿Por qué usar una combinación de antibiótico y corticosteroide?",
+         "opciones":[  
+            {  
+               "opcion":"Para disminuir la sobrecolonización de Staphylococcus aureus y la severidad de la lesión"
+            },
+            {  
+               "opcion":"Para humectar la piel"
+            },
+            {  
+               "opcion":"Para desinflamar la lesión"
+            },
+            {  
+               "opcion":"A y C"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"43",
+         "pregunta":"Fucicort® crema está indicado para el tratamiento a largo plazo de:",
+         "opciones":[  
+            {  
+               "opcion":"Dermatitis atópica leve"
+            },
+            {  
+               "opcion":"Dermatitis atópica moderada"
+            },
+            {  
+               "opcion":"Dermatitis atópica severa"
+            },
+            {  
+               "opcion":"Ninguna de los anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"44",
+         "pregunta":"¿Para qué condiciones se recomienda generalmente el tratamiento con Fucicort® crema?",
+         "opciones":[  
+            {  
+               "opcion":"Episodios agudos de eczema/dermatitis"
+            },
+            {  
+               "opcion":"Acné"
+            },
+            {  
+               "opcion":"Eczema crónico de las manos y los pies que no responden a los tratamientos con esteroides suaves."
+            },
+            {  
+               "opcion":"A y C"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"45",
+         "pregunta":"¿Cuál de las siguientes patologías es la que se presenta con mayor incidencia?",
+         "opciones":[  
+            {  
+               "opcion":"Tiña de cuerpo"
+            },
+            {  
+               "opcion":"Candidiasis"
+            },
+            {  
+               "opcion":"Dermatitis"
+            },
+            {  
+               "opcion":"Infección por hongos"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"46",
+         "pregunta":"¿Cómo ejerce Fucidin® la acción antibacteriana?",
+         "opciones":[  
+            {  
+               "opcion":"Inhibiendo la síntesis de proteínas bacterianas"
+            },
+            {  
+               "opcion":"Causando directamente la necrosis de las células de proteínas bacterianas"
+            },
+            {  
+               "opcion":"Fomentando el sistema inmune para destruir las células de proteínas bacterianas"
+            },
+            {  
+               "opcion":"Mediante la inhibición de la síntesis de proteínas bacterianas Y fomentando el sistema inmune para destruir las células de proteínas bacterianas"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"47",
+         "pregunta":"Son productos originales de investigación y desarrollo LEO Pharma®",
+         "opciones":[  
+            {  
+               "opcion":"Fucidin®"
+            },
+            {  
+               "opcion":"Fucicort®"
+            },
+            {  
+               "opcion":"Daivonex®"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"48",
+         "pregunta":"¿Qué producto es generalmente más adecuado para uso en dermatitis?",
+         "opciones":[  
+            {  
+               "opcion":"Fucicort®"
+            },
+            {  
+               "opcion":"Fucidin®"
+            },
+            {  
+               "opcion":"Cualquiera"
+            },
+            {  
+               "opcion":"Ninguno"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"49",
+         "pregunta":"Fucicort contiene valerato de betametasona. ¿En combinación con?",
+         "opciones":[  
+            {  
+               "opcion":"Calcipotriol"
+            },
+            {  
+               "opcion":"Ácido fusídico"
+            },
+            {  
+               "opcion":"Fusidato de betametasona"
+            },
+            {  
+               "opcion":"Mometasona"
+            }
+         ],
+         "respuesta":"b"
+      },
+      {  
+         "numero":"50",
+         "pregunta":"¿Cuál de los siguientes antibióticos muestra el menor potencial sensibilizante alergénico sobre la piel?",
+         "opciones":[  
+            {  
+               "opcion":"Ácido fusídico"
+            },
+            {  
+               "opcion":"Neomicina"
+            },
+            {  
+               "opcion":"Clioquinol"
+            },
+            {  
+               "opcion":"Ácido fusídico y neomicina"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"51",
+         "pregunta":"A veces hay confusión sobre el diagnostico de una dermatitis y una infección por hongos. ¿En qué parte del cuerpo es más común que se presente una infección por hongos?",
+         "opciones":[  
+            {  
+               "opcion":"Piernas y brazos: 50%"
+            },
+            {  
+               "opcion":"Tronco y espalda: 60%"
+            },
+            {  
+               "opcion":"Cuello y cabeza: 70%"
+            },
+            {  
+               "opcion":"Manos y pies: 80%"
+            }
+         ],
+         "respuesta":"d"
+      },
+      {  
+         "numero":"52",
+         "pregunta":"¿Qué porcentaje de los pacientes con dermatitis atópica tiene colonización de la piel por Staphylococcus aureus?",
+         "opciones":[  
+            {  
+               "opcion":"> 90%"
+            },
+            {  
+               "opcion":"> 80%"
+            },
+            {  
+               "opcion":"> 70%"
+            },
+            {  
+               "opcion":"> 60%"
+            }
+         ],
+         "respuesta":"a"
+      },
+      {  
+         "numero":"53",
+         "pregunta":"¿Por qué usar una combinación de antibiótico y corticosteroide?",
+         "opciones":[  
+            {  
+               "opcion":"Para disminuir la sobrecolonización de Staphylococcus aureus y la severidad de la lesión"
+            },
+            {  
+               "opcion":"Para humectar la piel"
+            },
+            {  
+               "opcion":"Para desinflamar la lesión"
+            },
+            {  
+               "opcion":"A y C"
+            }
+         ],
+         "respuesta":"d"
+      }
+    ],
+ 	"Daivobet" : [
+ 		{  
+         "numero":"1",
+         "pregunta":"¿Cuál es la sal (principio activo) que contiene Daivobet?",
+         "opciones":[  
+            {  
+               "opcion":"Calcipotriol"
+            },
+            {  
+               "opcion":"Análogo Vitamida D"
+            },
+            {  
+               "opcion":"Corticoesteroide "
+            },
+            {  
+               "opcion":"A y B"
+            }
+         ],
+         "respuesta":"d"
+		},
+		{  
+         "numero":"2",
+         "pregunta":"¿Cuáles son las indicaciones de Daivonex®?",
+         "opciones":[  
+            {  
+               "opcion":"Tratamiento para Queratosis Actínica"
+            },
+            {  
+               "opcion":"Tratamiento para Dermatitis"
+            },
+            {  
+               "opcion":"Tratamiento para la Psoriasis en placa"
+            }
+         ],
+         "respuesta":"c"
+		},
+		{  
+         "numero":"3",
+         "pregunta":"¿En qué parte del cuerpo no debe utilizarse Daivonex®?",
+         "opciones":[  
+            {  
+               "opcion":"Brazos"
+            },
+            {  
+               "opcion":"Piernas"
+            },
+            {  
+               "opcion":"Cara"
+            }
+         ],
+         "respuesta":"c"
+		},
+		{  
+         "numero":"4",
+         "pregunta":"¿A qué laboratorio pertenece la marca Daivonex®?",
+         "opciones":[  
+            {  
+               "opcion":"GSK"
+            },
+            {  
+               "opcion":"LEO Pharma®"
+            },
+            {  
+               "opcion":"Genderma"
+            }
+         ],
+         "respuesta":"b"
+		},
+		{  
+         "numero":"5",
+         "pregunta":"¿A qué laboratorio pertenece la marca Daivobet®?",
+         "opciones":[  
+            {  
+               "opcion":"GSK"
+            },
+            {  
+               "opcion":"Leo Pharma®"
+            },
+            {  
+               "opcion":"Genderma"
+            }
+         ],
+         "respuesta":"b"
+		},
+		{  
+         "numero":"6",
+         "pregunta":"¿Qué presentaciones de Daivonex® hay actualmente disponibles en la farmacia?",
+         "opciones":[  
+            {  
+               "opcion":"Crema 30mg"
+            },
+            {  
+               "opcion":"Ungüento 30g"
+            },
+            {  
+               "opcion":"Ninguna de las anteriores"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"b"
+		},
+		{  
+         "numero":"7",
+         "pregunta":"¿Qué presentaciones tiene Daivobet® actualmente en el mercado?",
+         "opciones":[  
+            {  
+               "opcion":"Daivobet® Gel 5mg/50mg, 30g"
+            },
+            {  
+               "opcion":"Daivobet® Ungüento 5mg/50mg, 30g"
+            },
+            {  
+               "opcion":"A y B"
+            }
+         ],
+         "respuesta":"c"
+		},
+		{  
+         "numero":"8",
+         "pregunta":"¿En qué casos se utiliza Daivobet® Ungüento?",
+         "opciones":[  
+            {  
+               "opcion":"Cuando el paciente tiene Psoriasis en cuero cabelludo"
+            },
+            {  
+               "opcion":"Cuando el paciente tiene Psoriasis en cuerpo y zonas pilosas"
+            },
+            {  
+               "opcion":"Cuando el paciente tiene Psoriasis en las uñas"
+            },
+            {  
+               "opcion":"Cuando el paciente no tiene Psoriasis"
+            }
+         ],
+         "respuesta":"b"
+		},
+		{  
+         "numero":"9",
+         "pregunta":"¿En qué casos se utiliza Daivobet® Gel?",
+         "opciones":[  
+            {  
+               "opcion":"Cuando el paciente tiene Psoriasis en cuero cabelludo"
+            },
+            {  
+               "opcion":"Cuando el paciente tiene Psoriasis en cuerpo"
+            },
+            {  
+               "opcion":"Cuando el paciente tiene Psoriasis en las uñas"
+            },
+            {  
+               "opcion":"Cuando el paciente no tiene Psoriasis"
+            },
+            {  
+               "opcion":"A y B"
+            }
+         ],
+         "respuesta":"e"
+		},
+		{  
+         "numero":"10",
+         "pregunta":"¿Cuáles son los efectos adversos más comunes (secundarios) de Daivonex®?",
+         "opciones":[  
+            {  
+               "opcion":"Irritación local y transitoria"
+            },
+            {  
+               "opcion":"Eritema y prurito"
+            },
+            {  
+               "opcion":"A y B"
+            }
+         ],
+         "respuesta":"a"
+		},
+		{  
+         "numero":"11",
+         "pregunta":"¿Cuáles son los efectos adversos más comunes de Daivobet®?",
+         "opciones":[  
+            {  
+               "opcion":"Prurito, irritación cutánea"
+            },
+            {  
+               "opcion":"Ardor y sanción de escozor"
+            },
+            {  
+               "opcion":"A y B"
+            }
+         ],
+         "respuesta":"c"
+		},
+		{  
+         "numero":"12",
+         "pregunta":"¿Cuál es la ventaja de utilizar Daivobet®?",
+         "opciones":[  
+            {  
+               "opcion":"Aplicación una vez al día"
+            },
+            {  
+               "opcion":"Fácil uso por las noches"
+            },
+            {  
+               "opcion":"NO mancha, NO huele, NO irrita"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"d"
+		},
+		{  
+         "numero":"13",
+         "pregunta":"¿Qué ventajas tiene Daivonex®?",
+         "opciones":[  
+            {  
+               "opcion":"Terapia de control"
+            },
+            {  
+               "opcion":"Terapia de largo uso, hasta por 52 semanas"
+            },
+            {  
+               "opcion":"Se puede utilizar después de utilizar Daivobet® una vez que haya pasado la fase más aguda de la enfermedad"
+            },
+            {  
+               "opcion":"Todas las anteriores"
+            }
+         ],
+         "respuesta":"d"
+		}
+ 	]
+}

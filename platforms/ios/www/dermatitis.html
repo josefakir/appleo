@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!--<link rel="stylesheet" href="js/owl.carousel.css">
+	<link rel="stylesheet" href="js/owl.theme.css">-->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+			function siguiente(){
+				posicion = $('#contentcarusel').offset();
+				posicion = posicion.left*-1;
+				nuevaposicion = ($(window).width()+posicion)*-1;
+				$('#contentcarusel').animate({
+					marginLeft : nuevaposicion+'px'
+				});
+			}
+			$('.siguiente').click(function(e){
+				e.preventDefault();
+				siguiente();
+			})
+			$.ajax({
+				url : 'preguntas.json',
+				success : function(data){
+					data = JSON.parse(data);
+					preguntas = data.Fucidin;
+					pregunta = Math.floor(Math.random() * (preguntas.length-1));
+					p1 = preguntas.splice(pregunta,1)[0];
+					pregunta = Math.floor(Math.random() * (preguntas.length-1));
+					p2 = preguntas.splice(pregunta,1)[0];
+					pregunta = Math.floor(Math.random() * (preguntas.length-1));
+					p3 = preguntas.splice(pregunta,1)[0];
+					$('#pregunta1').html(p1.pregunta);
+					$('#pregunta2').html(p2.pregunta);
+					$('#pregunta3').html(p3.pregunta);
+					output = '';
+					$.each( p1.opciones, function( key, value ) {
+						switch(key){
+							case 0:
+							letraopcion = 'a';
+							break;
+							case 1:
+							letraopcion = 'b';
+							break;
+							case 2:
+							letraopcion = 'c';
+							break;
+							case 3:
+							letraopcion = 'd';
+							break;
+							case 4:
+							letraopcion = 'e';
+							break;
+						}
+						output += '<li><input type="radio" name="opciones1" value="'+letraopcion+'"><span>'+letraopcion+') '+value.opcion+'</span></li>';
+						$('#respuestas1').html(output);
+					});
+					$('#correcta1').html(p1.respuesta);
+					output = '';
+					$.each( p2.opciones, function( key, value ) {
+						switch(key){
+							case 0:
+							letraopcion = 'a';
+							break;
+							case 1:
+							letraopcion = 'b';
+							break;
+							case 2:
+							letraopcion = 'c';
+							break;
+							case 3:
+							letraopcion = 'd';
+							break;
+							case 4:
+							letraopcion = 'e';
+							break;
+						}
+						output += '<li><input type="radio" name="opciones2" value="'+letraopcion+'"><span>'+letraopcion+') '+value.opcion+'</span></li>';
+						$('#respuestas2').html(output);
+					});
+					$('#correcta2').html(p2.respuesta);
+					output = '';
+					$.each( p3.opciones, function( key, value ) {
+						switch(key){
+							case 0:
+							letraopcion = 'a';
+							break;
+							case 1:
+							letraopcion = 'b';
+							break;
+							case 2:
+							letraopcion = 'c';
+							break;
+							case 3:
+							letraopcion = 'd';
+							break;
+							case 4:
+							letraopcion = 'e';
+							break;
+						}
+						output += '<li><input type="radio" name="opciones3" value="'+letraopcion+'"><span>'+letraopcion+') '+value.opcion+'</span></li>';
+						$('#respuestas3').html(output);
+					});
+					$('#correcta3').html(p3.respuesta);
+				}
+			});
+			anchoback = $('.backpreguntas2').width();
+			nuevotamanofuente = Math.ceil((32*anchoback)/688);
+			correctas = 0;
+			$('.backpreguntas').css('font-size' , nuevotamanofuente+'px');
+			$('.itemcarusel').width($( window ).width()+'px');
+			$('.itemcarusel').height($( document ).height()+'px');
+			$('body').width($( window ).width()+'px');
+			$('#incorrecta').width($( window ).width()+'px');
+			$('#correcta').width($( window ).width()+'px');
+			$('.botonsiguiente').click(function(){
+				opcionseleccionada = $('input[name='+$(this).attr('rel')+']:checked').val();
+				opccioncorrecta = $('#'+$(this).attr('rel-correcta')).html();
+				if(opcionseleccionada == opccioncorrecta){
+					$('#correcta').fadeIn('fast');
+					cantidadcorrectas = $('#cantidadcorrectas').html();
+					switch(cantidadcorrectas){
+						case '0':
+							$('.tubo').hide();
+							$('.tubo5').hide();
+							$('.tubo10').hide();
+							$('.tubolleno').hide();
+							$('.tubo5').show();
+							$('#cantidadcorrectas').html('1');
+						break;
+						case '1':
+							$('.tubo').hide();
+							$('.tubo5').hide();
+							$('.tubo10').hide();
+							$('.tubolleno').hide();
+							$('.tubo10').show();
+							$('#cantidadcorrectas').html('2');
+						break;
+						case '2':
+							$('.tubo').hide();
+							$('.tubo5').hide();
+							$('.tubo10').hide();
+							$('.tubolleno').hide();
+							$('.tubolleno').show();
+							$('#cantidadcorrectas').html('3');
+						break;
+					}
+					console.log(correctas);
+				}else{
+					$('#incorrecta').fadeIn('fast');
+				}
+			});
+			$('#incorrecta').click(function(){
+				$(this).fadeOut('fast');
+			})
+			$('#correcta').click(function(){
+				$(this).fadeOut('fast',function(){
+					siguiente();
+				})
+			})
+		});
+	</script>
+</head>
+<body class="padecimiento">
+	<div class="backpreguntas2"></div>
+	<div id="wrapcarusel">
+		<div id="contentcarusel">
+			<div class="itemcarusel">
+				<img class="siguiente" src="img/dermatitisD1.png" alt="" class="diapositiva">
+			</div>
+			<div class="itemcarusel">
+				<img class="siguiente" src="img/dermatitisD2.png" alt="" class="diapositiva">
+			</div>
+			<div class="itemcarusel">
+				<div class="backpreguntas">
+				<p class="pregunta" id="pregunta1"></p>
+				<ul class="respuesta" id="respuestas1">
+					
+				</ul>
+				<img src="img/botonsiguiente.png" alt="" class="botonsiguiente" rel="opciones1" rel-correcta="correcta1">
+				</div>
+				<img src="img/personajes/dermatitis.png" alt="" class="personaje">
+				<img src="img/tubo-vacio.png" alt="" class="tubo">
+				<img src="img/5gramos.png" alt="" class="tubo5">
+				<img src="img/10gramos.png" alt="" class="tubo10">
+				<img src="img/tubo-lleno.png" alt="" class="tubolleno">
+			</div>
+			<div class="itemcarusel">
+				<div class="backpreguntas">
+				<p class="pregunta" id="pregunta2"></p>
+				<ul class="respuesta" id="respuestas2">
+					<li><input type="radio"><span></span></li>
+				</ul>
+				<img src="img/botonsiguiente.png" alt="" class="botonsiguiente" rel="opciones2" rel-correcta="correcta2">
+				</div>
+				<img src="img/personajes/dermatitis.png" alt="" class="personaje">
+				<img src="img/tubo-vacio.png" alt="" class="tubo">
+				<img src="img/5gramos.png" alt="" class="tubo5">
+				<img src="img/10gramos.png" alt="" class="tubo10">
+				<img src="img/tubo-lleno.png" alt="" class="tubolleno">
+			</div>
+			<div class="itemcarusel">
+				<div class="backpreguntas">
+				<p class="pregunta" id="pregunta3"></p>
+				<ul class="respuesta" id="respuestas3">
+					<li><input type="radio"><span></span></li>
+				</ul>
+				<img src="img/botonsiguiente.png" alt="" class="botonsiguiente" rel="opciones3" rel-correcta="correcta3">
+				</div>
+				<img src="img/personajes/dermatitis.png" alt="" class="personaje">
+				<img src="img/tubo-vacio.png" alt="" class="tubo">
+				<img src="img/5gramos.png" alt="" class="tubo5">
+				<img src="img/10gramos.png" alt="" class="tubo10">
+				<img src="img/tubo-lleno.png" alt="" class="tubolleno">
+			</div>
+			<div class="itemcarusel">
+				<img class="siguiente" src="img/dermatitisD3.png" alt="" class="diapositiva">
+			</div>
+			<div class="itemcarusel">
+				<img class="siguiente" src="img/dermatitisD4.png" alt="" class="diapositiva">
+			</div>
+			<div class="itemcarusel">
+				<img  src="img/dermatitisD5.png" alt="" class="diapositiva">
+			</div>
+		</div>
+	</div>
+	<div class="footerpadecimiento">
+		<div class="footerpadecimiento2"></div>
+		<img id="leoenlapiel" src="img/leoenlapiel.png" alt="">
+		<img src="img/fflogos.png" alt="" id="daivonex">
+		<!--<img src="img/daivobet.png" alt="" id="daivobet">-->
+		<a href="index.html" id="home"><img src="img/botonhome.png" alt=""></a>
+	</div>	
+	<div id="correcta1"></div>
+	<div id="correcta2"></div>
+	<div id="correcta3"></div>
+	<div id="cantidadcorrectas">0</div>
+	<div id="correcta">
+		<img src="img/respuestacorrecta.png" alt="">
+	</div>
+	<div id="incorrecta">
+		<img src="img/respuestaincorrecta.png" alt="">
+	</div>
+</body>
+</html>

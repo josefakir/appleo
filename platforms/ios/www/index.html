@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		anchooriginal = 1024;
+		altooriginal = 768;
+		nuevoalto = $(window).height();
+		$('#estante1').animate({
+			'height' : nuevoalto+'px'
+		},function(){
+			$('#imagenestante1').animate({
+				'height' : nuevoalto+'px'
+			});
+		},function(){
+			nuevoancho = Math.ceil($('#imagenestante1').width());
+			$('#estante1').animate({
+				'width' : nuevoancho+'px'
+			},function(){
+				$('#estante1').animate({
+					'marginLeft' : ((nuevoancho*-1)/2)+'px'
+				})
+			})
+		});
+		$('#boton_entrar').click(function(){
+			valor = $('#codigo').val();
+			if(valor.toUpperCase() === 'LEO2017'){
+				$('#codigoacceso').fadeOut('fast');
+				localStorage.setItem('activada', true);
+			}else{
+				$('#error').fadeIn('fast');
+				$('#codigo').val('');
+			}
+			
+		});
+		console.log(localStorage.getItem('activada'));
+		if(localStorage.getItem('activada')=='true'){
+			$('#codigoacceso').hide();
+		}
+	})
+	</script>
+</head>
+<body class="estante">
+	<div id="estante1">
+		<a href="medicamentos.html"><img src="img/primera.jpg" alt="" id="imagenestante1"></a>
+	</div>
+	</div>
+	<div id="codigoacceso">
+		<p id="error">Código Incorrecto</p>
+		<input type="text" id="codigo" placeholder="CÓDIGO">
+		<img src="img/entrar.png" alt="" id="boton_entrar">
+	</div>
+</body>
+</html>
